@@ -1,5 +1,7 @@
 main {
-    margin-top: 50px;
+    margin-top: 150px;
+    z-index: 1;
+    position: absolute;
 }
 
 .showreel {
@@ -18,6 +20,7 @@ h2 {
     font-family: AmaticSC;
     margin-left: 150px;
     margin-top: 30px;
+    font-size: 25pt;
 }
 
 .imgs {
@@ -41,6 +44,7 @@ h2 {
 
 .about {
     background-color: var(--dark-purple);
+    width: 212vh;
 }
 
 .sobre {
@@ -76,20 +80,26 @@ h2 {
 }
 
 .segundaParte {
-    margin-left: 300px;
+    margin-left: 400px;
     width: 300px;
 }
 
 .segundaParte img {
-    width: 100px;
+    width: 110px;
 }
 
 .info {
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.info {
+    font-family: calibrii;
 }
 
 .info h3{
     color: var(--violet);
+    font-family: AmaticSC;
+    font-size: 20pt;
 }
 
 .info h5, a {
@@ -97,6 +107,44 @@ h2 {
 }
 
 .contact {
-    background-image: url(../img/bg-contact.jpg);
+    width: 100%;
     height: 100vh;
+    background-image: url(../img/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+}
+
+.footer {
+    display: flex;
+}
+
+.endereco {
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-family: AmaticSC;
+    font-size: 18pt;
+    text-indent: 10px;
+    font-weight: 500;
+}
+
+textarea {
+    border: 2px solid black;
 }
