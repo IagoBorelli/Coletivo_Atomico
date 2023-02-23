@@ -1,0 +1,69 @@
+:root {
+    --dark-purple: #1d1226;
+    --violet: #b502cf;
+    --grey: #8e8892;
+}
+
+@font-face {
+    font-family: "AmaticSC";
+    src: url("../font/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibrii";
+    src: url(../font/calibrii.ttf) format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logo img {
+    width: 130px;
+    margin-left: 100px;
+}
+
+.container-menu {
+    width: 400px;
+    margin-right: 200px;
+    font-family: AmaticSC;
+    font-size: 24pt;
+}
+
+.container-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    list-style: none;
+}
+
+.container-menu li {
+    color: var(--dark-purple);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-menu li a:hover {
+    color: var(--violet);
+}
+
+
+
