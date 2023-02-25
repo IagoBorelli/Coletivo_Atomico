@@ -167,7 +167,7 @@ textarea {
     font-weight: bolder;
 }
 
-.enviar:hover {
+.send:hover {
     background-color: var(--grey);
     color: var(--violet);
 }
