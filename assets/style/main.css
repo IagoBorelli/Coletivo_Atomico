@@ -1,5 +1,5 @@
 main {
-    margin-top: 150px;
+    margin-top: 120px;
     z-index: 1;
     position: absolute;
 }
@@ -7,7 +7,7 @@ main {
 .showreel {
     display: flex;
     justify-content: center;
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(228, 228, 228);
 }
 
 .portfolio {
@@ -31,7 +31,7 @@ h2 {
     width: 400px;
 
     object-fit: cover; 
-    transition: transform 0.2s ease-in-out; 
+    transition: transform 0.3s ease-in-out; 
 }
 
 .imgs img:hover {
@@ -44,7 +44,7 @@ h2 {
 
 .about {
     background-color: var(--dark-purple);
-    width: 212vh;
+    width: 211.5vh;
 }
 
 .sobre {
@@ -123,6 +123,7 @@ h2 {
     width: 200px;
     margin-top: 60px;
     margin-left: 170px;
+    font-family: calibrii;
 }
 
 form {
@@ -147,4 +148,35 @@ input::placeholder, textarea::placeholder{
 
 textarea {
     border: 2px solid black;
+}
+
+.enviar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.send {
+    width: 70px;
+    padding: 1px;
+    background-color: var(--dark-purple);
+    color: var(--grey);
+    border-radius: 4px;
+    font-family: AmaticSC;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+
+.iago {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+    margin-right: 30px;
+    font-family: AmaticSC;
+    font-size: 18pt;
+    text-shadow: 0.5px 0.5px 0.5px var(--dark-purple);
+}
+
+.iago a {
+    color: var(--violet);
 }

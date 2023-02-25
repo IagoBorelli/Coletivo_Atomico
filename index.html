@@ -7,14 +7,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style/header.css">
     <link rel="stylesheet" href="assets/style/main.css">
-
-    <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="assets/style/responsive.css">
     <!--  -->
+    <link rel="shortcut icon" href="assets/img/icon/FAVICOM.png" type="image/x-icon">
+
     <title>Coletivo Atômico</title>
 </head>
-<body>
+<body id="home">
     <header>
         <nav class="navbar bg-light">
             <div class="container-logo">
@@ -22,7 +21,7 @@
             </div>
             <div class="container-menu">
                 <ul>
-                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="#home">HOME</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#studio">STUDIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
@@ -32,25 +31,25 @@
     </header>
     <main>
         <div class="showreel">
-            <iframe width="1024" height="415" src="https://www.youtube.com/embed/oVLdd4FsWAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="960" height="415" src="https://www.youtube.com/embed/HdyqbLNXGKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="container-lg portfolio" id="portfolio">
             <h2>Portfolio</h2>
         </div>
         <div class="container-lg images">
             <div class="imgs">
-                <img src="assets/img/abaite.png" alt="">
-                <img src="assets/img/circo-do-bipo.png" alt="">
-                <img src="assets/img/dia-dos-namorados.png" alt="">
+                <a href=""><img src="assets/img/abaite.png" alt=""></a>
+                <a href=""><img src="assets/img/circo-do-bipo.png" alt=""></a>
+                <a href=""><img src="assets/img/dia-dos-namorados.png" alt=""></a>
             </div>
             <div class="imgs">
-                <img src="assets/img/gotita.png" alt="">
-                <img src="assets/img/planeta-em-jogo.png" alt="">
-                <img src="assets/img/pride-lgbtqia.png" alt="">
+                <a href=""><img src="assets/img/gotita.png" alt=""></a>
+                <a href=""><img src="assets/img/planeta-em-jogo.png" alt=""></a>
+                <a href=""><img src="assets/img/pride-lgbtqia.png" alt=""></a>
             </div>
             <div class="imgs">
-                <img src="assets/img/showreel.png" alt="">
-                <img src="assets/img/turminha-do-siri.png" alt="">
+                <a href=""><img src="assets/img/showreel.png" alt=""></a>
+                <a href=""><img src="assets/img/turminha-do-siri.png" alt=""></a>
             </div>
         </div>
         <div class="container-lg about" id="studio">
@@ -62,10 +61,10 @@
                     Atuamos no mercado de animação para séries e publicidade.
                     </p>
                     <div class="redesSociais">
-                        <img src="assets/img/icon/logo insta.png" alt="">
-                        <img src="assets/img/icon/logo zap.png" alt="">
-                        <img src="assets/img/icon/logo linkedin.png" alt="">
-                        <img src="assets/img/icon/logo facebook.png" alt="">
+                        <a href=""><img src="assets/img/icon/logo insta.png" alt=""></a>
+                        <a href=""><img src="assets/img/icon/logo zap.png" alt=""></a>
+                        <a href=""><img src="assets/img/icon/logo linkedin.png" alt=""></a>
+                        <a href=""><img src="assets/img/icon/logo facebook.png" alt=""></a>
                     </div>
                 </div>
                 <div class="segundaParte">
@@ -146,10 +145,18 @@
                         <div>
                             <textarea name="" id="" cols="40" rows="10" placeholder="Message"></textarea>
                         </div>
+                        <div class="enviar">
+                            <button class="send">Send</button>
+                        </div>
                     </div>
                 </form>
             </div>
+            <div class="iago">
+                <p>Desenvolvido por <a href="https://www.linkedin.com/in/iago-borelli/" target="_blank">Iago Borelli</a>
+                </p>
+            </div>
         </div>
+        
     </main>
 </body>
 </html>
