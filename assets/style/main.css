@@ -44,7 +44,7 @@ h2 {
 
 .about {
     background-color: var(--dark-purple);
-    width: 209vh;
+    width: 205vh;
 }
 
 .sobre {
@@ -107,7 +107,7 @@ h2 {
 }
 
 .contact {
-    width: 209vh;
+    width: 205vh;
     height: 100vh;
     background-image: url(../img/bg-contact.jpg);
     background-repeat: no-repeat;
