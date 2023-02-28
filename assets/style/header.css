@@ -69,5 +69,14 @@ a {
     color: var(--violet);
 }
 
+.exit {
+    width: 100px;
+    font-size: 20pt;
+    background-color: white;
+    border: none;
+    font-family: AmaticSC;
+    margin-left: 200px;
+}
+
 
 

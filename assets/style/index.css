@@ -1,3 +1,19 @@
+:root {
+    --dark-purple: #1d1226;
+    --violet: #b502cf;
+    --grey: #8e8892;
+}
+
+@font-face {
+    font-family: "AmaticSC";
+    src: url("../font/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibrii";
+    src: url(../font/calibrii.ttf) format("truetype");
+}
+
 main {
     margin-top: 120px;
     z-index: 1;
