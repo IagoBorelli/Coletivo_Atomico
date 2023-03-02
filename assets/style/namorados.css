@@ -28,11 +28,6 @@ main {
     display: flex;
 }
 
-.primeiraParte iframe {
-    margin-left: 200px;
-    margin-top: 40px;
-}
-
 .titulo {
     margin-left: 40px;
 }
@@ -51,9 +46,21 @@ main {
     margin-top: 10px;
 }
 
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.namorados {
+    width: 450px;
+    margin-left: 200px;
+}
+
 .cliente {
     margin-left: 40px;
-    margin-top: -40px;
+    margin-top: 40px;
 }
 
 .cliente h1 {
@@ -87,30 +94,11 @@ main {
     margin-top: 10px;
 }
 
-.images {
-    margin-top: 30px;
-}
-
-.imgs {
-    margin-left: 70px;
-}
-
-.imgs img {
-    width: 400px;
-    margin-left: 5px;
-    object-fit: cover; 
-    transition: transform 0.3s ease-in-out; 
-}
-
-.imgs img:hover {
-    transform: scale(1.2);
-    border: 2px solid white;
-}
 
 .contact {
-    margin-top: 400px;
+    margin-top: 60px;
     width: 211.9vh;
-    height: 100vh;
+    height: 109vh;
     background-image: url(../img/icon/rodape_roxo.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -133,13 +121,23 @@ main {
     display: flex;
     color: white;
     justify-content: flex-end;
-    margin-top: 400px;
+    margin-top: 10px;
     margin-right: 30px;
     font-family: AmaticSC;
     font-size: 18pt;
-    text-shadow: 0.5px 0.5px 0.5px var(--violet);
+    text-shadow: 0.5px 0.5px 0.5px white;
 }
 
 .iago a {
     color: var(--violet);
+}
+
+.redesSociais {
+    margin-left: 1150px;
+    margin-top: 400px;
+}
+
+.redesSociais img{
+    width: 40px;
+    margin-right: 5px;
 }
