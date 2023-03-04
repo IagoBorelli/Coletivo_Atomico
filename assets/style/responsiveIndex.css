@@ -95,6 +95,8 @@
 
     .imgs {
         margin-left: 10px;
+        display: flex;
+        flex-direction: column;
     }
 
     .imgs img {
