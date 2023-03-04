@@ -1,0 +1,154 @@
+:root {
+    --dark-purple: #1d1226;
+    --purple: #342144;
+    --violet: #b502cf;
+    --grey: #8e8892;
+}
+
+@font-face {
+    font-family: "AmaticSC";
+    src: url("../font/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibrii";
+    src: url(../font/calibrii.ttf) format("truetype");
+}
+
+main {
+    width: 212vh;
+    height: 300vh;
+    margin-top: 140px;
+    z-index: 1;
+    position: absolute;
+    background-color: var(--purple);
+}
+
+.primeiraParte {
+    display: flex;
+}
+
+.primeiraParte iframe {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.titulo {
+    margin-left: 40px;
+}
+
+.titulo h1 {
+    font-family: AmaticSC;
+    color: var(--violet);
+    margin-top: 30px;
+}
+
+.titulo p {
+    font-size: 16pt;
+    font-family: calibri;
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.cliente {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.cliente h1 {
+    font-family: AmaticSC;
+    color: var(--violet);
+}
+
+.cliente p {
+    font-size: 16pt;
+    font-family: calibri;
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.ano {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.ano h1 {
+    font-family: AmaticSC;
+    color: var(--violet);
+}
+
+.ano p {
+    font-size: 16pt;
+    font-family: calibri;
+    color: white;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.images {
+    margin-top: 30px;
+}
+
+.imgs {
+    margin-left: 70px;
+}
+
+.imgs img {
+    width: 400px;
+    margin-left: 5px;
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.imgs img:hover {
+    transform: scale(1.2);
+    border: 2px solid white;
+}
+
+.contact {
+    margin-top: 400px;
+    width: 211.9vh;
+    height: 109vh;
+    background-image: url(../img/icon/rodape_roxo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+}
+
+.footer {
+    display: flex;
+}
+
+.endereco {
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 170px;
+    font-family: calibrii;
+    color: white;
+}
+
+.iago {
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-family: AmaticSC;
+    font-size: 18pt;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+.iago a {
+    color: var(--violet);
+}
+
+.redesSociais {
+    margin-left: 1150px;
+    margin-top: 400px;
+}
+
+.redesSociais img{
+    width: 40px;
+    margin-right: 5px;
+}

@@ -1,0 +1,173 @@
+:root {
+    --dark-purple: #1d1226;
+    --violet: #b502cf;
+    --grey: #8e8892;
+}
+
+@font-face {
+    font-family: "AmaticSC";
+    src: url("../font/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibrii";
+    src: url(../font/calibrii.ttf) format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 360px){
+
+    /* HEADER */
+
+    header {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+        width: 360px;
+        
+    }  
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-logo img {
+        width: 100px;
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+
+    .container-menu {
+        width: 10px;
+        margin-right: 200px;
+        margin-left: 30px;
+        font-family: AmaticSC;
+        font-size: 14pt;
+        text-indent: 5px;
+    }
+
+    .container-menu ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        list-style: none;
+    }
+
+    /* MAIN */
+ 
+
+    .showreel {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    iframe {
+        width: 360px;
+    }
+
+    .portfolio {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: var(--dark-purple);
+        font-family: AmaticSC;
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 18pt;
+    }
+
+    .imgs {
+        margin-left: 10px;
+    }
+
+    .imgs img {
+        width: 340px;
+        margin-bottom: 3px;
+        object-fit: cover; 
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .partes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        background-color: var(--dark-purple);
+    }
+
+    .primeiraParte {
+        width: 260px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .primeiraParte p {
+        color: var(--grey);
+        font-size: 16pt;
+        font-family: calibrii;
+        text-align: justify;
+    }
+
+    .redesSociais img{
+        width: 20px;
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-bottom: 30px;
+    }
+
+    .segundaParte {
+        margin-left: 30px;
+        width: 300px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact {
+        background-image: url(../img/bg-contact.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 100%; 
+    }
+
+    .endereco {
+        width: 200px;
+        margin-top: 60px;
+        margin-left: 17px;
+        font-family: calibrii;
+    }
+
+    form {
+        margin-top: 50px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .iago {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 70px;
+        margin-left: 30px;
+        font-family: AmaticSC;
+        font-size: 24pt;
+        text-shadow: 0.5px 0.5px 0.5px var(--dark-purple);
+    }
+}
