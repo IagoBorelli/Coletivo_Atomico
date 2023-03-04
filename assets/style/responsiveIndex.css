@@ -65,7 +65,11 @@
     }
 
     /* MAIN */
- 
+    
+    main {
+        max-width: 360px;
+        overflow: hidden;
+    }
 
     .showreel {
         display: flex;
