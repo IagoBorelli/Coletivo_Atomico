@@ -1,0 +1,214 @@
+:root {
+    --dark-purple: #1d1226;
+    --violet: #b502cf;
+    --grey: #8e8892;
+}
+
+@font-face {
+    font-family: "AmaticSC";
+    src: url("../font/AmaticSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "calibrii";
+    src: url(../font/calibrii.ttf) format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    /* HEADER */
+
+    header {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+        width: 100%;
+        
+    }  
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-logo img {
+        width: 100px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .container-menu {
+        margin-left: -80px;
+        margin-top: 20px;
+    }
+
+    /* MAIN */
+
+    
+    main {
+        max-width: 100%;
+        height: 470%;
+        overflow: hidden;
+    }
+
+    .primeiraParte {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primeiraParte iframe {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs {
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs img {
+        width: 95%;
+        margin-bottom: 10px;
+        object-fit: cover; 
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .contact {
+        margin-top: 60px;
+        width: 100%;
+        height: 120vh;
+        background-image: url(../img/icon/rodape_roxo.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 600%; 
+    }
+
+    .endereco {
+        margin-left: 30px;
+    }
+
+    .redesSociais {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .iago {
+        justify-content: flex-start;
+        margin-left: 30px;
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 884px){
+
+    /* HEADER */
+
+    header {
+        margin-top: 0px;
+        margin-left: 0px;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+        width: 100%;
+        
+    }  
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-logo img {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .container-menu {
+        margin-left: 280px;
+        margin-top: 20px;
+    }
+
+    /* MAIN */
+
+    
+    main {
+        max-width: 100%;
+        height: 490%;
+        overflow: hidden;
+    }
+
+    .primeiraParte {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .primeiraParte iframe {
+        margin-left: 40px;
+        width: 90%;
+        height: 400px;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs {
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs img {
+        width: 95%;
+        margin-bottom: 10px;
+        object-fit: cover; 
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    .contact {
+        margin-top: 100px;
+        width: 100%;
+        height: 140vh;
+        background-image: url(../img/icon/rodape_roxo.jpg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 100%; 
+    }
+
+    .endereco {
+        margin-left: 30px;
+    }
+
+    .redesSociais {
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    .iago {
+        justify-content: flex-start;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+}
+
