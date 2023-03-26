@@ -55,7 +55,7 @@
     
     main {
         max-width: 100%;
-        height: 300%;
+        height: 220%;
         overflow: hidden;
     }
 
@@ -82,7 +82,7 @@
         background-image: url(../img/icon/rodape_roxo.jpg);
         background-repeat: no-repeat;
         background-position: top right;
-        background-size: 600%; 
+        background-size: 300%; 
     }
 
     .endereco {
@@ -136,7 +136,7 @@
     
     main {
         max-width: 100%;
-        height: 215%;
+        height: 175%;
         overflow: hidden;
     }
 
