@@ -1,79 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/style/header.css">
-    <link rel="stylesheet" href="../assets/style/namorados.css">
-    <link rel="stylesheet" href="../assets/style/responsivenamorados.css">
-    <!--  -->
-    <title>Coletivo Atômico</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar bg-light">
-            <div class="container-logo">
-                <img src="../assets/img/logo.png" alt="">
-            </div>
-            <div class="container-menu">
-                <button class="exit"><a href="../index.html">Voltar</a></button>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="primeiraParte">
-            <div class="titulo">
-                <h1>dia dos namorados</h1>
-                <p>Algumas datas comemorativas não passam despercebidas por nós. Dia nos namorados que é celebrado no Brasil em 12 de Junho, é um dia especial no coração daqueles que são apaixonados por seus companheiros.</p>
-            </div>
-        </div>
-
-        <div class="cliente">
-            <h1>Cliente</h1>
-            <p>Estudio Coletivo Atômico</p>
-        </div>
-
-        <div class="ano">
-            <h1>ano</h1>
-            <p>2022</p>
-        </div>
-
-        <div class="conteudo">
-            <iframe width="450" height="450" src="https://www.youtube.com/embed/BLEG5wDcL9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <img src="../assets/img/namorados/cover-namorados.jpg" alt="" class="namorados">
-        </div>
-
-        
-        <div class="contact" id="contact">
-            <div class="footer">
-                <div class="endereco">
-                    <p>
-                        Urbano neto  - 573
-                        <br>
-                        Coroa do Meio - Aracaju SE
-                        <br>
-                        49035-190
-                        <br>
-                        contato@coletivo.atomico.com
-                        <br>
-                        +55 79 9838-7869
-                    </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../assets/style/header.css">
+        <link rel="stylesheet" href="../assets/style/namorados.css">
+        <link
+        rel="stylesheet" href="../assets/style/responsivenamorados.css">
+        <!--  -->
+        <title>Coletivo Atômico</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar bg-light">
+                <div class="container-logo">
+                    <img src="../assets/img/logo.png" alt="">
+                </div>
+                <div class="container-menu">
+                    <button class="exit">
+                        <a href="../index.html">Voltar</a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="primeiraParte">
+                <div class="titulo">
+                    <h1>dia dos namorados</h1>
+                    <p>Algumas datas comemorativas não passam despercebidas por nós. Dia nos namorados que é celebrado no Brasil em 12 de Junho, é um dia especial no coração daqueles que são apaixonados por seus companheiros.</p>
                 </div>
             </div>
 
-            <div class="redesSociais">
-                <a href="https://www.instagram.com/coletivoatomico/"><img src="../assets/img/icon/logo insta.png" alt=""></a>
-                <a href="https://wa.me/5579998387869"><img src="../assets/img/icon/logo zap.png" alt=""></a>
-                <a href="https://www.linkedin.com/company/coletivo-at%C3%B4mico/"><img src="../assets/img/icon/logo linkedin.png" alt=""></a>
-                <a href=""><img src="../assets/img/icon/logo facebook.png" alt=""></a>
+            <div class="cliente">
+                <h1>Cliente</h1>
+                <p>Estudio Coletivo Atômico</p>
             </div>
-            <div class="iago">
-                <p>developed by <a href="https://www.linkedin.com/in/iago-borelli/" target="_blank">Iago Borelli</a>
-                </p>
+
+            <div class="ano">
+                <h1>ano</h1>
+                <p>2022</p>
             </div>
-        </div>
-    </main>
-</body>
+
+            <div class="conteudo">
+                <iframe width="450" height="450" src="https://www.youtube.com/embed/BLEG5wDcL9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div>
+                    <img src="../assets/img/namorados/cover-namorados.jpg" alt="" class="namorados" onclick="expandImage(this)">
+                </div>
+                <div class="expanded-image" onclick="collapseImage()">
+                    <img src="../assets/img/namorados/cover-namorados.jpg" alt="" class="namorados">
+                </div>
+            </div>
+
+
+            <div class="contact" id="contact">
+                <div class="footer">
+                    <div class="endereco">
+                        <p>
+                            Urbano neto  - 573
+                            <br>
+                            Coroa do Meio - Aracaju SE
+                            <br>
+                            49035-190
+                            <br>
+                            contato@coletivo.atomico.com
+                            <br>
+                            +55 79 9838-7869
+                        </p>
+                    </div>
+                </div>
+
+                <div class="redesSociais">
+                    <a href="https://www.instagram.com/coletivoatomico/"><img src="../assets/img/icon/logo insta.png" alt=""></a>
+                    <a href="https://wa.me/5579998387869"><img src="../assets/img/icon/logo zap.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/coletivo-at%C3%B4mico/"><img src="../assets/img/icon/logo linkedin.png" alt=""></a>
+                    <a href=""><img src="../assets/img/icon/logo facebook.png" alt=""></a>
+                </div>
+                <div class="iago">
+                    <p>developed by
+                        <a href="https://www.linkedin.com/in/iago-borelli/" target="_blank">Iago Borelli</a>
+                    </p>
+                </div>
+            </div>
+            <script>
+                function expandImage(img) {
+                    let expandedImage = document.querySelector('.expanded-image');
+                    expandedImage.querySelector('img').src = img.src;
+                    expandedImage.classList.add('show');
+                }
+
+                function collapseImage() {
+                    let expandedImage = document.querySelector('.expanded-image');
+                    expandedImage.classList.remove('show');
+                }
+            </script>
+        </main>
+    </body>
 </html>

@@ -1,92 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/style/header.css">
-    <link rel="stylesheet" href="../assets/style/circo.css">
-    <link rel="stylesheet" href="../assets/style/responsivegotita.css">
-    <!--  -->
-    <title>Coletivo Atômico</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar bg-light">
-            <div class="container-logo">
-                <img src="../assets/img/logo.png" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../assets/style/header.css">
+        <link rel="stylesheet" href="../assets/style/gotita.css">
+        <link
+        rel="stylesheet" href="../assets/style/responsivegotita.css">
+        <!--  -->
+        <title>Coletivo Atômico</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar bg-light">
+                <div class="container-logo">
+                    <img src="../assets/img/logo.png" alt="">
+                </div>
+                <div class="container-menu">
+                    <button class="exit">
+                        <a href="../index.html">Voltar</a>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="primeiraParte">
+                <div class="titulo">
+                    <h1>o sonho da gotita</h1>
+                    <p>Esse trabalho foi feito para a produtora Luminar Filmes. O objetivo era criar 4 episódios animados sobre o uso conciente e responsavel da água.</p>
+                </div>
+                <iframe width="660" height="315" src="https://www.youtube.com/embed/EgO54dxvF7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="container-menu">
-                <button class="exit"><a href="../index.html">Voltar</a></button>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="primeiraParte">
-            <div class="titulo">
-                <h1>o sonho da gotita</h1>
-                <p>Esse trabalho foi feito para a produtora Luminar Filmes. O objetivo era criar 4 episódios animados sobre o uso conciente e responsavel da água.</p>
-            </div>
-            <iframe width="660" height="315" src="https://www.youtube.com/embed/EgO54dxvF7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
 
-        <div class="cliente">
-            <h1>Cliente</h1>
-            <p>Luminar Filmes</p>
-        </div>
+            <div class="cliente">
+                <h1>Cliente</h1>
+                <p>Luminar Filmes</p>
+            </div>
 
-        <div class="ano">
-            <h1>ano</h1>
-            <p>2022</p>
-        </div>
+            <div class="ano">
+                <h1>ano</h1>
+                <p>2022</p>
+            </div>
 
-        <div class="container-lg images">
-            <div class="imgs">
-                <img src="../assets/img/gotita/1.jpg" alt="">
-                <img src="../assets/img/gotita/2.jpg" alt="">
-                <img src="../assets/img/gotita/3.jpg" alt="">
+            <div class="container-lg images">
+                <div class="imgs">
+                    <div>
+                        <img src="../assets/img/gotita/1.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/2.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/3.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                </div>
+
+                <div class="imgs">
+                    <div>
+                        <img src="../assets/img/gotita/4.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/5.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/6.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                </div>
+
+                <div class="imgs">
+                    <div>
+                        <img src="../assets/img/gotita/7.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/8.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                    <div>
+                        <img src="../assets/img/gotita/9.jpg" alt="" onclick="expandImage(this)">
+                    </div>
+                </div>
+
             </div>
-            <div class="imgs">
-                <img src="../assets/img/gotita/4.jpg" alt="">
-                <img src="../assets/img/gotita/5.jpg" alt="">
-                <img src="../assets/img/gotita/6.jpg" alt="">
+
+            <div class="container-lg images">
+                <div class="imgs">
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/1.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/2.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="imgs">
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/4.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/5.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/6.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="imgs">
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/7.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/8.jpg" alt="">
+                    </div>
+                    <div class="expanded-image" onclick="collapseImage()">
+                        <img src="../assets/img/gotita/9.jpg" alt="">
+                    </div>
+                </div>
+
             </div>
-            <div class="imgs">
-                <img src="../assets/img/gotita/7.jpg" alt="">
-                <img src="../assets/img/gotita/8.jpg" alt="">
-                <img src="../assets/img/gotita/9.jpg" alt="">
-            </div>
-            
-        </div>
-        <div class="contact" id="contact">
-            <div class="footer">
-                <div class="endereco">
-                    <p>
-                        Urbano neto  - 573
-                        <br>
-                        Coroa do Meio - Aracaju SE
-                        <br>
-                        49035-190
-                        <br>
-                        contato@coletivo.atomico.com
-                        <br>
-                        +55 79 9838-7869
+
+            <div class="contact" id="contact">
+                <div class="footer">
+                    <div class="endereco">
+                        <p>
+                            Urbano neto  - 573
+                            <br>
+                            Coroa do Meio - Aracaju SE
+                            <br>
+                            49035-190
+                            <br>
+                            contato@coletivo.atomico.com
+                            <br>
+                            +55 79 9838-7869
+                        </p>
+                    </div>
+                </div>
+
+                <div class="redesSociais">
+                    <a href="https://www.instagram.com/coletivoatomico/"><img src="../assets/img/icon/logo insta.png" alt=""></a>
+                    <a href="https://wa.me/5579998387869"><img src="../assets/img/icon/logo zap.png" alt=""></a>
+                    <a href="https://www.linkedin.com/company/coletivo-at%C3%B4mico/"><img src="../assets/img/icon/logo linkedin.png" alt=""></a>
+                    <a href=""><img src="../assets/img/icon/logo facebook.png" alt=""></a>
+                </div>
+                <div class="iago">
+                    <p>developed by
+                        <a href="https://www.linkedin.com/in/iago-borelli/" target="_blank">Iago Borelli</a>
                     </p>
                 </div>
             </div>
+        </main>
+        <script>
+            function expandImage(img) {
+                let expandedImage = document.querySelector('.expanded-image');
+                expandedImage.querySelector('img').src = img.src;
+                expandedImage.classList.add('show');
+            }
 
-            <div class="redesSociais">
-                <a href="https://www.instagram.com/coletivoatomico/"><img src="../assets/img/icon/logo insta.png" alt=""></a>
-                <a href="https://wa.me/5579998387869"><img src="../assets/img/icon/logo zap.png" alt=""></a>
-                <a href="https://www.linkedin.com/company/coletivo-at%C3%B4mico/"><img src="../assets/img/icon/logo linkedin.png" alt=""></a>
-                <a href=""><img src="../assets/img/icon/logo facebook.png" alt=""></a>
-            </div>
-            <div class="iago">
-                <p>developed by <a href="https://www.linkedin.com/in/iago-borelli/" target="_blank">Iago Borelli</a>
-                </p>
-            </div>
-        </div>
-    </main>
-</body>
+            function collapseImage() {
+                let expandedImage = document.querySelector('.expanded-image');
+                expandedImage.classList.remove('show');
+            }
+        </script>
+    </body>
 </html>

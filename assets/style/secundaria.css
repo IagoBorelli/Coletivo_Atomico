@@ -107,6 +107,36 @@ main {
     border: 2px solid white;
 }
 
+.expanded-image {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+  
+.expanded-image.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+  
+.expanded-image img {
+    width: 750px;
+}
+
+.expanded-image img:hover {
+    transform: none;
+}
+
+
 .contact {
     margin-top: 400px;
     width: 211.9vh;

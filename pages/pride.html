@@ -43,9 +43,23 @@
 
         <div class="container-lg images">
             <div class="imgs">
-                <img src="../assets/img/pride/1.jpg" alt="">
-                <img src="../assets/img/pride/2.jpg" alt="">
-                <img src="../assets/img/pride/3.jpg" alt="">
+                <img src="../assets/img/pride/1.jpg" alt="" onclick="expandImage(this)">
+                <img src="../assets/img/pride/2.jpg" alt="" onclick="expandImage(this)">
+                <img src="../assets/img/pride/3.jpg" alt="" onclick="expandImage(this)">
+            </div>
+        </div>
+
+        <div class="container-lg images">
+            <div class="imgs">
+                <div class="expanded-image" onclick="collapseImage()">
+                    <img src="../assets/img/pride/1.jpg" alt="">
+                </div>
+                <div class="expanded-image" onclick="collapseImage()">
+                    <img src="../assets/img/pride/2.jpg" alt="">
+                </div>
+                <div class="expanded-image" onclick="collapseImage()">
+                    <img src="../assets/img/pride/3.jpg" alt="">
+                </div>
             </div>
         </div>
         <div class="contact" id="contact">
@@ -71,5 +85,17 @@
             </div>
         </div>
     </main>
+    <script>
+        function expandImage(img) {
+            let expandedImage = document.querySelector('.expanded-image');
+            expandedImage.querySelector('img').src = img.src;
+            expandedImage.classList.add('show');
+        }
+
+        function collapseImage() {
+            let expandedImage = document.querySelector('.expanded-image');
+            expandedImage.classList.remove('show');
+        }
+    </script>
 </body>
 </html>
